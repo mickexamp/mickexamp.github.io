@@ -1,0 +1,15 @@
+#header {
+    overflow: hidden
+}
+#videoBG    {
+    position: absolute;
+    z-index: -10;
+    top: -7%;
+    left: 0;
+    min-width: 100%;
+    min-height: 114%;
+    overflow: hidden;
+}
+a.avatar img {
+    border: solid 2px white;
+}
