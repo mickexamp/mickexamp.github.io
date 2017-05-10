@@ -1,0 +1,141 @@
+body {
+    min-width: 900px;
+}
+section{
+    padding: 50px 0;
+}
+                /*  header  */
+header {
+    height: 916px;
+    background: url(../img/bg-header.jpg) no-repeat center;
+}
+#logo {
+    height: 50px;
+    width: 170px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: url(../img/logo.png) no-repeat center;
+}
+#header-text {
+    margin-top: 60px;
+    color: white;
+    margin-bottom: 70px
+}
+#header-text h1 {
+    font: normal small-caps 40px sans-serif;
+    color: #cccccc;
+}
+form {
+    width: 380px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #f5f5f5;
+    border-radius: 3px;
+}
+form div {
+    text-align: left;
+}
+form label {
+    font-size: 10px;
+    color: #cccccc;
+}
+form input {
+    width: 100%;
+    font: normal 14pt sans-serif;
+    border: none;
+    border-bottom: solid 1px #999999;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+        background: #f5f5f5;
+}
+input:focus { 
+    outline: none;
+}
+form button {
+    margin: 0 auto;
+    color: white;
+    background: #993399;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 3px;
+    box-shadow: -2px 2px 5px #cccccc;
+}
+#arrow-bottom {
+    margin-top: 50px;
+    height: 14px;
+    background: url(../img/arrow-bottom.png) no-repeat center;
+}
+                /* Screenshots */
+#screenshots {
+    padding: 0;
+}
+#screenshots div {
+    height: 288px;
+}
+#screenshot1 {
+  background: url(../img/screenshots_image1.jpg)center 
+}
+#screenshot2 {
+  background: url(../img/screenshots_image2.jpg)center  
+}
+#screenshot3 {
+  background: url(../img/screenshots_image3.jpg)center  
+}
+#screenshot4 {
+  background: url(../img/screenshots_image4.jpg)center  
+}
+                /* FAQ */
+#faq {
+    background: #f5f5f5;
+}
+                /* reviewes */
+#logo1, #logo2, #logo3, #logo4 {
+    height: 200px;
+}
+#logo1 {
+    background: url(../img/logo1.png) no-repeat center;
+}
+#logo2 {
+    background: url(../img/logo2.png) no-repeat center;
+}
+#logo3 {
+    background: url(../img/logo3.png) no-repeat center;
+}
+#logo4 {
+    background: url(../img/logo4.png) no-repeat center;
+}
+/* carousel */
+.carousel-indicators li{
+    border-color: #999999 !important;
+}
+.carousel-indicators .active{
+    background: black !important;
+}
+                /* features */
+.features {
+    background: #f5f5f5;
+}
+.reward-badge {
+    height: 40px;
+    background: url(../img/reward-badge.png) no-repeat center;
+}
+                /* CTA */
+#cta {
+    padding: 70px;
+    background: #f5f5f5;
+}
+#cta button {
+    margin: 30px 0 0;    
+    padding: 15px 25px;
+    color: white;
+    background: #993399;
+    border: none;
+    border-radius: 3px;
+    box-shadow: -2px 2px 5px #cccccc;
+}
+
+                /* footer */
+footer {
+    padding: 50px;
+    color: #999999;
+}
