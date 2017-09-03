@@ -1,0 +1,185 @@
+/*    header 1  */
+.header-1 .cs-arrow[cs-value='1'] {
+    -webkit-animation: linear example 2s infinite;
+    -o-animation: linear example 2s infinite;
+    animation: linear example 2s infinite;
+}
+.header-1 .cs-arrow[cs-value='2'] {
+    -webkit-animation: linear example2 2s infinite;
+    -o-animation: linear example2 2s infinite;
+    animation: linear example2 2s infinite;
+}
+.header-1 .cs-arrow[cs-value='3'] {
+    -webkit-animation: linear example3 2s infinite;
+    -o-animation: linear example3 2s infinite;
+    animation: linear example3 2s infinite;
+}
+@-webkit-keyframes example3 {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    65% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes example2 {
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    66% {opacity: 1;}
+    99% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes example {
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-o-keyframes example3 {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    65% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@-o-keyframes example2 {
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    66% {opacity: 1;}
+    99% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@-o-keyframes example {
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes example3 {
+    0% {opacity: 0;}
+    15% {opacity: 1;}
+    65% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes example2 {
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    56% {opacity: 1;}
+    99% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes example {
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    66% {opacity: 0;}
+    90% {opacity: 1;}
+}
+/*    end header 1  */
+
+
+
+/*    header 2  */
+.header-2 .cs-arrow[cs-value='1'] {
+    -webkit-animation: linear exxample 2s infinite;
+    -o-animation: linear exxample 2s infinite;
+    animation: linear exxample 2s infinite;
+}
+.header-2 .cs-arrow[cs-value='2'] {
+    -webkit-animation: linear exxample2 2s infinite;
+    -o-animation: linear exxample2 2s infinite;
+    animation: linear exxample2 2s infinite;
+}
+.header-2 .cs-arrow[cs-value='3'] {
+    -webkit-animation: linear exxample3 2s infinite;
+    -o-animation: linear exxample3 2s infinite;
+    animation: linear exxample3 2s infinite;
+}
+@-webkit-keyframes exxample3 {
+    0% {opacity: 0.2;}
+    25% {opacity: 1;}
+    65% {opacity: 0.2;}
+    100% {opacity: 0.2;}
+}
+@-webkit-keyframes exxample2 {
+    0% {opacity: 0.2;}
+    33% {opacity: 0.2;}
+    66% {opacity: 1;}
+    99% {opacity: 0.2;}
+    100% {opacity: 0.2;}
+}
+@-webkit-keyframes exxample {
+    0% {opacity: 1;}
+    25% {opacity: 0.2;}
+    66% {opacity: 0.2;}
+    100% {opacity: 1;}
+}
+@-o-keyframes exxample3 {
+    0% {opacity: 0.2;}
+    25% {opacity: 1;}
+    65% {opacity: 0.2;}
+    100% {opacity: 0.2;}
+}
+@-o-keyframes exxample2 {
+    0% {opacity: 0.2;}
+    33% {opacity: 0.2;}
+    66% {opacity: 1;}
+    99% {opacity: 0.2;}
+    100% {opacity: 0.2;}
+}
+@-o-keyframes exxample {
+    0% {opacity: 1;}
+    25% {opacity: 0.2;}
+    66% {opacity: 0.2;}
+    100% {opacity: 1;}
+}
+@keyframes exxample3 {
+    0% {opacity: 0.2;}
+    25% {opacity: 1;}
+    65% {opacity: 0.2;}
+    100% {opacity: 0.2;}
+}
+@keyframes exxample2 {
+    0% {opacity: 0.2;}
+    33% {opacity: 0.2;}
+    66% {opacity: 1;}
+    99% {opacity: 0.2;}
+    100% {opacity: 0.2;}
+}
+@keyframes exxample {
+    0% {opacity: 1;}
+    25% {opacity: 0.2;}
+    66% {opacity: 0.2;}
+    100% {opacity: 1;}
+}
+/*    end header 2  */
+
+
+
+/*    header 3  */
+.header-3 #cs-burger {
+    margin: 0 50px!important;
+}
+.header-3 .cs-arrow-left {
+    margin: 10px 0!important;
+    -webkit-animation: linear exxxample 2s infinite;
+    -o-animation: linear exxxample 2s infinite;
+    animation: linear exxxample 2s infinite;
+}
+.header-3 .cs-arrow-right {
+    margin: 10px 0px!important;
+    -webkit-animation: linear exxxample2 2s infinite;
+    -o-animation: linear exxxample2 2s infinite;
+    animation: linear exxxample2 2s infinite;
+}
+@keyframes exxxample2 {
+    0% {margin: 10px 10px 10px -10px;}
+    20% {margin: 10px -5px 10px 5px;}
+    50% {margin: 10px 10px 10px -10px;}
+    70% {margin: 10px -5px 10px 5px;}
+    100% {margin: 10px 10px 10px -10px;}
+}
+@keyframes exxxample {
+    0% {margin: 10px -10px 10px 10px;}
+    20% {margin: 10px 5px 10px -5px;}
+    50% {margin: 10px -10px 10px 10px;}
+    70% {margin: 10px 5px 10px -5px;}
+    100% {margin: 10px -10px 10px 10px;}
+}
+/*    end header 3  */
